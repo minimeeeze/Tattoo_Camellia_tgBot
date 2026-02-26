@@ -1,5 +1,5 @@
 # main.py
-# Точка входа бота — здесь создаём Bot, Dispatcher, подключаем роутеры и запускаем
+## Точка входа бота — здесь создаём Bot, Dispatcher, подключаем роутеры и запускаем
 
 import asyncio
 import logging
@@ -22,7 +22,7 @@ from handlers.admin import router as admin_router
 # Загружаем .env
 
 # Явно указываем относительный путь от места запуска main.py
-load_dotenv("secret.env")
+load_dotenv()
 
 # Настраиваем логи (чтобы видеть ошибки и что происходит)
 logging.basicConfig(
