@@ -1,5 +1,5 @@
 # main.py
-## Точка входа бота — здесь создаём Bot, Dispatcher, подключаем роутеры и запускаем
+# Точка входа бота — здесь создаём Bot, Dispatcher, подключаем роутеры и запускаем
 
 import asyncio
 import logging
